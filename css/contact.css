@@ -152,12 +152,12 @@ i[class^=flaticon-]{line-height:1;top:2px;position:relative;}
 .contact-info-content h4 a:hover{color:var(--clr-theme-2);}
 }
 .contact-info-wrapper{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:30px 20px;}
-.contact-info-icon{width:96px;height:96px;background:linear-gradient(180deg, #14CF93 0%, rgba(20, 207, 147, 0.4) 100%);display:inline-flex;align-items:center;justify-content:center;border-radius:50%;position:relative;}
+.contact-info-icon{width:96px;height:96px;background:#ff4c4c;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;position:relative;}
 @media (max-width:450px){
 .contact-info-icon{width:76px;height:76px;}
 }
-.contact-info-icon .icon-middle{width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(180deg, #14CF93 0%, #33D6A1 100%);position:absolute;right:15px;border-radius:3px;}
-.contact-info-icon .icon-middle::before{position:absolute;content:"";top:50%;transform:translateY(-50%);left:-10px;width:0;height:0;border-top:7px solid transparent;border-right:10px solid #14CF93;border-bottom:7px solid transparent;border-radius:10px 0px 0px 10px;}
+.contact-info-icon .icon-middle{width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;background:#ff4c4c;position:absolute;right:15px;border-radius:3px;}
+.contact-info-icon .icon-middle::before{position:absolute;content:"";top:50%;transform:translateY(-50%);left:-10px;width:0;height:0;border-top:7px solid transparent;border-right:10px solid white;border-bottom:7px solid transparent;border-radius:10px 0px 0px 10px;}
 .contact-form{padding:60px 60px;background:var(--clr-theme-1);margin-left:30px;}
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px){
 .contact-form{padding:60px 30px;}
@@ -184,7 +184,7 @@ label{cursor:pointer;}
 /*! CSS Used keyframes */
 @keyframes iconltr{49%{transform:translateX(30%);}50%{opacity:0;transform:translateX(-30%);}51%{opacity:1;}}
 /*! CSS Used fontfaces */
-@font-face{font-family:"flaticon_axil";src:url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts/flaticon_axil.ttf?af1b53e90009168e14def3a8ddb99edb") format("truetype"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts/flaticon_axil.woff?af1b53e90009168e14def3a8ddb99edb") format("woff"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts/flaticon_axil.woff2?af1b53e90009168e14def3a8ddb99edb") format("woff2"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts/flaticon_axil.eot?af1b53e90009168e14def3a8ddb99edb#iefix") format("embedded-opentype"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts/flaticon_axil.svg?af1b53e90009168e14def3a8ddb99edb#flaticon_axil") format("svg");}
+@font-face{font-family:"flaticon_axil";src:url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts1/flaticon_axil.ttf?af1b53e90009168e14def3a8ddb99edb") format("truetype"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts1/flaticon_axil.woff?af1b53e90009168e14def3a8ddb99edb") format("woff"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts1/flaticon_axil.woff2?af1b53e90009168e14def3a8ddb99edb") format("woff2"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts1/flaticon_axil.eot?af1b53e90009168e14def3a8ddb99edb#iefix") format("embedded-opentype"), url("file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/fonts1/flaticon_axil.svg?af1b53e90009168e14def3a8ddb99edb#flaticon_axil") format("svg");}
 
 /*! CSS Used from: file:///C:/Users/tempou01/Downloads/axilhtml-10/axilhtml-10/axil-html-package/axil/assets/css/bootstrap.min.css */
 *,::after,::before{box-sizing:border-box;}
